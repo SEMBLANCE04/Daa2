@@ -1,10 +1,9 @@
-
 #include<stdio.h>
 #include<stdlib.h>
 
-#define INF 99999
-#define min(a,b) (a<b?a:b)
-#define MAX 100
+#define INF 99999 //infinity max value
+#define min(a,b) (a<b?a:b) //find minimum of 2 value
+#define MAX 100 //max size of 100 vertices
 
 void floydWarshall(int n, int graph[MAX][MAX]);
 
