@@ -1,6 +1,5 @@
 #include <stdio.h>
 
-
 struct Item {
     int weight;
     int value;
