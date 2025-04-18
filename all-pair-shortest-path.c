@@ -28,7 +28,7 @@ void main(){
     int n;
     scanf("%d",&n);
     int graph[MAX][MAX];
-    printf("Enter the adjacency matrix (use 99999 for INF): ");
+    printf("Enter the adjacency matrix (use 0 for no edge): ");
 
     for(i=0;i<n;i++){
         for(j=0;j<n;j++){
