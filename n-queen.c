@@ -10,9 +10,9 @@ void printBoard(int n) {
     for (i = 1; i <= n; i++) {
         for (j = 1; j <= n; j++) {
             if (x[i] == j)
-                printf(" Q ");  // Place queen
+                printf(" Q ");
             else
-                printf(" . ");  // Empty space
+                printf(" . ");
         }
         printf("\n");
     }
